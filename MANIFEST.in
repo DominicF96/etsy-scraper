@@ -1,0 +1,2 @@
+include LICENSE
+recursive-include etsy_scraper_pkg *.py

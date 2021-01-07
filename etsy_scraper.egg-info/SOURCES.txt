@@ -1,0 +1,10 @@
+README.md
+setup.py
+etsy_scraper.egg-info/PKG-INFO
+etsy_scraper.egg-info/SOURCES.txt
+etsy_scraper.egg-info/dependency_links.txt
+etsy_scraper.egg-info/requires.txt
+etsy_scraper.egg-info/top_level.txt
+src/__init__.py
+src/product_scraper.py
+src/vendor_scraper.py

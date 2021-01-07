@@ -2,8 +2,6 @@ from bs4 import BeautifulSoup
 import urllib.request
 import json
 
-vendors = []
-
 def vendorScrape(url):
 
     page = urllib.request.urlopen(url)
@@ -62,9 +60,8 @@ def vendorScrape(url):
     print("\t","Found all_products '", len(all_products) , "'")
 
 
-    # Build JSON
-
-    vendors.append({
+    # Returns JSON data
+    return {
         "name": name,
         "subtitle": subtitle,
         "location": location,
@@ -74,11 +71,4 @@ def vendorScrape(url):
         "vendor_image": vendor_image,
         "featured_products": featured_products,
         "all_products": all_products,
-    })
-
-with open('vendors_links.txt','r', encoding="utf8") as links:
-    for url in links:
-        vendorScrape(url)
-
-with open('products.json', 'w', encoding='utf-8') as f:
-    json.dump({"products": products}, f, ensure_ascii=False, indent=4)
+    }
