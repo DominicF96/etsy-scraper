@@ -1,5 +1,9 @@
 # Etsy Scraper
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Note: Under development, the package cannot be imported yet although the code works 'on my machine'.**
+
 Retrieves info from Etsy using UrlLib and Beautiful Soup and returns the data in JSON.
 
 **Note:** This is a web scraper, therefore, it will work until Etsy changes the tags we use to locate and
