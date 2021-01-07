@@ -7,3 +7,7 @@ sample.csv
 .idea/vcs.xml
 *.iml
 *.csv
+
+build/
+dist/
+*.egg-info/
