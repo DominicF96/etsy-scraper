@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Note: No Longer maintained, the package cannot be imported yet although the code works 'on my machine'.**
+**Note: No Longer maintained, the package cannot be imported although the code works 'on my machine'.**
 
 Retrieves info from Etsy using UrlLib and Beautiful Soup and returns the data in JSON.
 
